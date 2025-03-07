@@ -9,7 +9,7 @@ def is_prime(n: int) -> bool:
 
 
 def get_prime_factors(n: int) -> list[int]:
-    # repeated divide by smallest prime number that divides evenly
+    # repeatedly divide by smallest prime number that divides evenly
     # until you reach 1
     _n = n
     local_array = []
